@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Trees</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-primary bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#Introduction">Introduction</a>
+                <a class="navbar-brand" href="#Tree Pictures(Thumbnails)">Tree Pictures(Thumbnails)</a>
+                <a class="navbar-brand" href="#Tree Pictures with Text">Trees Pictures and Text</a>
+                <a class="navbar-brand" href="#Tall Tree Table">Tall Tree Table</a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="bg-info text-dark p-5">
+                <h1>Trees of the World</h1>
+                <p>Some beautful pictures of scenes with lovely trees</p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+
+    <div class="container-fluid">
+        <div class="text-dark p-5">
+            <h1 id="Introduction">Introduction</h1>
+            <p> This is the simple page that shows a number of bootstrap components and the styles they provide to
+                enhance
+                plain HTML content- while also supporting a responsive display ( screen resizing). <br>
+                <br>
+                Firstly, at the top of the page , within a section, is a navigation list using the Bootstrap component.
+                Next is the section that contains a banner ( a little of the page and leading sentence, all with a blue
+                background), and the content of the page. The content contains some pretty pictures of trees ( using
+                different layouts), as well as a bootstrap formatted table with content. The final section is a footer. 
+
+            </p>
+        </div>
+    </div>
+    <br>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <a href="" class="btn btn-primary btn-sm">Top</a>
+    </div>
+
+    <div class="container-fluid">
+        <div class="text-dark p-5">
+            <h1 id="Tree Pictures(Thumbnails)">Tree Pictures(Thumbnails)</h1>
+            <p>Below are some pretty pictures of trees, downloaded from the website Unsplash, with beautiful and
+                freely-usable images. These images are placed in a single bootstrap row composed of three columns (
+                using a
+                combined col-sm-4 col-12 ,where the col-sm-4 forces three images to be in a row on all the screen sizes
+                except very small ones (576px) where the col-12 forces the images to use all the 12 column grid units
+                and
+                stack each image on top of each other). Each image has the class img-thumbnail applied to it, allowing
+                it resize to the size of the column.</p>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="text-dark p-5">
+
+            <img class="img-fluid" justify-content="center" src="Images/one.jpg" alt="Chania" width="400" height="370">
+            <img class="img-fluid" justify-content="center" src="Images/two.jpg" alt="Chania" width="400" height="370">
+            <img class="img-fluid" justify-content="center" src="Images/three.jpg" alt="Chania" width="400" height="370">
+        </div>
+    </div>
+    <br>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <a href="" class="btn btn-primary btn-sm">Top</a>
+    </div>
+
+    <div class="container-fluid">
+        <div class="text-dark p-5">
+            <h1 id="Tree Pictures with Text">Tree Pictures with Text</h1>
+            <p>The following image and text is held within a new div which has the class attributes p-4 mb-4 bg- light
+                rounded,
+                to set the padding margin-below , background color and corner shaped, respectively. It holds a row, with
+                the
+                image is assigned to a col-sm-4 column and the text assigned to a single col-sm-8; allowing it to span
+                the
+                remaining 8 column units. Added to each of these two column is the col-12, which says when the screen is
+                smaller
+                than 576px, it will then use all the 12 columns grids for each image and text, allowing them to be
+                stacked on
+                top of each other.
+
+                In the final row, as with the one above, within a new div block we first have the text column has been
+                assigned
+                using a col-sm-8 col-12, followed by the image held in a column assigned a class col-sm-4 col-12;
+                reversing the
+                order shown in the previous row.</p>
+        </div>
+    </div>
+
+
+
+
+    <div class="card mb-3  bg-light" style="max-width: 98%;">
+        <div class="row g-2">
+            <div class="col-md-4">
+                <img src="Images/Card 1.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">This is a picture of a tree by cristina Gottardi</h5>
+                    <p class="card-text">Here, the class img-fluid rounded has been applied to the image the title above
+                        uses paragraph class=lead
+                        to make the text stand out. while this text uses paragraph which class=small to distungish it
+                        from the normal paragraphs.</p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="text-dark p-5">
+            <p>In the final row, as with the one above, within a new div block we first have the text column has been
+                assigned using a col-sm-8 col-12, followed by the image held in a column assigned a class col-sm-4
+                col-12; reversing the order shown in the previous row.</p>
+        </div>
+    </div>
+
+
+    <div class="card mb-3  bg-light" style="max-width: 98%;">
+        <div class="row g-4">
+            <div class="col-md-8">
+                <h5 class="card-title">This is a picture of a tree by Brandon Green</h5>
+                <p class="card-text">Another picture of a beautiful tree that has the class img-fluid rounded-pill
+                    applied to it.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="Images/Card 2.jpg" class="img-fluid rounded-start" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <a href="" class="btn btn-primary btn-sm">Top</a>
+    </div>
+
+    <div class="container-fluid">
+        <div class="text-dark p-5">
+            <h1 id="Tall Tree Table">Tall Tree Data</h1>
+            <p>In this last section of the page, we have a nice table with some information on the world tallest trees.
+                Here the table is styled with the bootstrap classes table table-border table-hover , and the table-light
+                applied to the table header thead. </p>
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Rank</th>
+                <th scope="col">Species</th>
+                <th scope="col">Common Name</th>
+                <th scope="col">
+                <th scope="col-1">Meter</th>
+                <th scope="col-1">Feet</th>
+                </th>
+                <th scope="col">Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Sequoia sempervirens</td>
+                <td colspan="2">Coast redwood</td>
+                <td>115.92</td>
+                <td>380.3</td>
+                <td>California, USA</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Shorea faguetiana</td>
+                <td colspan="2">Yellow meranti</td>
+                <td>100.8</td>
+                <td>331</td>
+                <td>Borneo, Indonesia</td>
+
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Eucalyptus regnans</td>
+                <td colspan="2">Mountain ash</td>
+                <td>100.5</td>
+                <td>329.7</td>
+                <td>Tasmania,Australia</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Pseuduotsuga menziesii</td>
+                <td colspan="2">Coast Douglas-fir</td>
+                <td>99.7</td>
+                <td>327</td>
+                <td>Oregon, USA</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Picea sitchensis</td>
+                <td colspan="2">Sitka spruce</td>
+                <td>96.7</td>
+                <td>317</td>
+                <td>Calfornia, USA</td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>Sequoiadendron giganteum</td>
+                <td colspan="2">Gaint sequoia</td>
+                <td>96.3</td>
+                <td>316</td>
+                <td>Calfornia, USA</td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>Eucalyptus viminalis</td>
+                <td colspan="2">Manna gum</td>
+                <td>92</td>
+                <td>302</td>
+                <td>Tasmania,Australia</td>
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td>Eucalyptus globulus</td>
+                <td colspan="2">Southern blue gum</td>
+                <td>90.7</td>
+                <td>298</td>
+                <td>Tasmania,Australia</td>
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td>Eucalyptus obliqua</td>
+                <td colspan="2">Brown top stringbark</td>
+                <td>88.5</td>
+                <td>290</td>
+                <td>Tasmania,Australia</td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td>Eucalyptus delegateensis</td>
+                <td colspan="2">Alpine ash</td>
+                <td>87.9</td>
+                <td>288</td>
+                <td>Tasmania,Australia</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="container-fluid">
+        <div class="text-dark p-5">
+            <p>This then concludes the content in the main section of the page. Note that the end of each content block
+                is a hyperlink back to the top of the page . it uses the p class = "text-end" to align to right of the
+                screen. 
+                <br>
+                <br>
+                the next section is th footer 
+            </p>
+        </div>
+    </div>
+<br>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <a href="" class="btn btn-primary btn-sm">Top</a>
+    </div>
+    <br>
+    <br>
+    <footer>
+
+        <div class="container-x-large">
+            <div class="bg-dark text-light p-1">
+                <div class="text-center">
+                    <h3>&copy; 2022 A webpage footer with important information</h3>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
